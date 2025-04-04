@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration
-VERSION="1.0.1"
+VERSION="1.0.2"
 REPO="AchoraSoft/kisscli_tool"
 BINARY_NAME="kissc"
 INSTALL_DIR="/usr/local/bin"

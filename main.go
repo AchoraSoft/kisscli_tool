@@ -12,17 +12,17 @@ import (
 )
 
 const (
-	repoURL      = "https://github.com/AchoraSoft/kissc.at/tree/master/"
+	repoURL      = "https://raw.githubusercontent.com/AchoraSoft/kissc.at/master/"
 	denoInstallURL = "https://deno.land/install.sh"
 	envContent   = `PORT=8000
-				BASE_PATH=./snaps
-				HOME_PATH=home
-				ALLOWED_METHODS=GET,POST,DELETE
-				VIEWS_BASE=./snaps
-				COMPONENTS_DIR=components
-				PUBLIC_PATH=public
-				`
-	)
+BASE_PATH=./snaps
+HOME_PATH=home
+ALLOWED_METHODS=GET,POST,DELETE
+VIEWS_BASE=./snaps
+COMPONENTS_DIR=components
+PUBLIC_PATH=public
+`
+)
 
 var templateFiles = []string{
 	"core/Controller.ts",

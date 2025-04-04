@@ -18,13 +18,13 @@ A minimalist CLI tool for quickly scaffolding Deno projects with sensible defaul
 ### Linux/macOS (bash)
 
 ```bash
-curl -fsSL https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.0.1/install.sh | sh
+curl -fsSL https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.0.2/install.sh | sh
 ```
 
 ### Windows (PowerShell)
 
 ```powershell
-irm https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.0.1/install.ps1 | iex
+irm https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.0.2/install.ps1 | iex
 ```
 
 ## Manual Installation
@@ -51,13 +51,13 @@ deno run --allow-net --allow-read server.ts
 ### Linux/macOS
 
 ```bash
-curl -fsSL https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.0.1/uninstall.sh | sh
+curl -fsSL https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.0.2/uninstall.sh | sh
 ```
 
 ### Windows
 
 ```powershell
-irm https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.0.1/uninstall.ps1 | iex
+irm https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.0.2/uninstall.ps1 | iex
 ```
 
 ## Requirements
