@@ -77,7 +77,8 @@ my-project/
 ├── server.ts
 ├── public/
 ├── routes/
-│   ├── home.ts
+│   ├── home
+|   |----get.ts
 │   └── layout.eta
 ```
 
