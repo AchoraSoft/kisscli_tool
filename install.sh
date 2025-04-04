@@ -50,7 +50,7 @@ sudo mv "$BINARY_NAME" "$INSTALL_DIR/$BINARY_NAME"
 # Verify installation
 if command -v "$BINARY_NAME" >/dev/null 2>&1; then
     echo -e "${GREEN}KISSC installed successfully!${NC}"
-    echo -e "Try running: ${YELLOW}$BINARY_NAME --help${NC}"
+    echo -e "Try running: ${YELLOW}$BINARY_NAME <your_project_name>${NC}"
 else
     echo -e "${RED}Installation failed - $BINARY_NAME not found in PATH${NC}"
     exit 1

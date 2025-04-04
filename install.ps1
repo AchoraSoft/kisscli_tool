@@ -22,7 +22,7 @@ try {
     [System.Environment]::SetEnvironmentVariable("PATH", $env:PATH, [System.EnvironmentVariableTarget]::User)
     
     Write-Host "KISSC installed successfully!" -ForegroundColor Green
-    Write-Host "Try running: $BINARY_NAME --help" -ForegroundColor Yellow
+    Write-Host "Try running: $BINARY_NAME <your_project_name>" -ForegroundColor Yellow
 }
 catch {
     Write-Host "Installation failed: $_" -ForegroundColor Red

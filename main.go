@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	repoURL      = "https://github.com/AchoraSoft/kissc.at/raw/main/"
+	repoURL      = "https://github.com/AchoraSoft/kissc.at/tree/master/"
 	denoInstallURL = "https://deno.land/install.sh"
 	envContent   = `PORT=8000
 				BASE_PATH=./snaps
