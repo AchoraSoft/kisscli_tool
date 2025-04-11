@@ -36,8 +36,27 @@ irm https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.0.2/install.
 ## Usage
 
 ```bash
-# Create a new project
+# Create a new project by default
 kissc create my-project
+
+OR
+
+kissc create my-project -f <your-yaml-configuration>
+
+# Example yaml file content
+
+project:
+  structure:
+    home:
+      get:
+        viewName: "index" # if yout endpoint is a page with view
+      post: {} # in case if your endpoint is API call with JSON result
+    api:
+      get: {}
+  env:
+    PORT: "3000"
+    BASE_PATH: "./routes"
+
 
 # Navigate to project
 cd my-project
