@@ -10,7 +10,7 @@ fi
 echo "Downloading dependencies..."
 go mod tidy
 
-VERSION="1.0.2"
+VERSION="1.1.0"
 BINARY_NAME="kissc"
 PLATFORMS=("linux/amd64" "darwin/amd64" "darwin/arm64" "windows/amd64")
 

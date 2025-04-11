@@ -51,13 +51,13 @@ deno run --allow-net --allow-read server.ts
 ### Linux/macOS
 
 ```bash
-curl -fsSL https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.0.2/uninstall.sh | sh
+curl -fsSL https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.1.0/uninstall.sh | sh
 ```
 
 ### Windows
 
 ```powershell
-irm https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.0.2/uninstall.ps1 | iex
+irm https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.1.0/uninstall.ps1 | iex
 ```
 
 ## Requirements
