@@ -2,7 +2,7 @@
 <img src="https://github.com/AchoraSoft/tofo/raw/master/logo.png" alt="TOFO Logo" width="250"/>
 </p>
 
-# TOFO | Think Once, Folw On
+# TOFO | Think Once, Flow On
 
 A minimalist CLI tool for quickly scaffolding Deno projects with sensible defaults.
 
