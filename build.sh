@@ -3,15 +3,15 @@
 # Initialize Go module if not already done
 if [ ! -f go.mod ]; then
     echo "Initializing Go module..."
-    go mod init github.com/your-username/kissc
+    go mod init github.com/your-username/tofo
 fi
 
 # Download dependencies
 echo "Downloading dependencies..."
 go mod tidy
 
-VERSION="1.1.0"
-BINARY_NAME="kissc"
+VERSION="1.3.1"
+BINARY_NAME="tofo"
 PLATFORMS=("linux/amd64" "darwin/amd64" "darwin/arm64" "windows/amd64")
 
 # Create builds directory if it doesn't exist

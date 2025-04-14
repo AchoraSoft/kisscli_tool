@@ -1,7 +1,7 @@
 # install.ps1
 $VERSION = "1.1.0"
-$REPO = "AchoraSoft/kisscli_tool"
-$BINARY_NAME = "kissc"
+$REPO = "AchoraSoft/tofocli_tool"
+$BINARY_NAME = "tofo"
 $INSTALL_DIR = "$HOME\bin"
 
 # Create install directory if it doesn't exist
@@ -13,7 +13,7 @@ if (-not (Test-Path $INSTALL_DIR)) {
 $URL = "https://github.com/$REPO/releases/download/v$VERSION/${BINARY_NAME}-${VERSION}-windows-amd64.exe"
 
 # Download and install
-Write-Host "Installing KISSC v$VERSION for Windows..."
+Write-Host "Installing TOFO v$VERSION for Windows..."
 Write-Host "Downloading from: $URL"
 
 try {
@@ -21,7 +21,7 @@ try {
     $env:PATH += ";$INSTALL_DIR"
     [System.Environment]::SetEnvironmentVariable("PATH", $env:PATH, [System.EnvironmentVariableTarget]::User)
     
-    Write-Host "KISSC installed successfully!" -ForegroundColor Green
+    Write-Host "TOFO installed successfully!" -ForegroundColor Green
     Write-Host "Try running: $BINARY_NAME <your_project_name>" -ForegroundColor Yellow
 }
 catch {

@@ -2,8 +2,8 @@
 
 # Configuration
 VERSION="1.1.0"
-REPO="AchoraSoft/kisscli_tool"
-BINARY_NAME="kissc"
+REPO="AchoraSoft/tofocli_tool"
+BINARY_NAME="tofo"
 INSTALL_DIR="/usr/local/bin"
 
 # Colors for output
@@ -33,11 +33,11 @@ fi
 URL="https://github.com/$REPO/releases/download/v$VERSION/$BINARY_NAME-$VERSION-$OS-$ARCH"
 
 # Download and install
-echo -e "${GREEN}Installing KISSC v$VERSION for $OS-$ARCH...${NC}"
+echo -e "${GREEN}Installing TOFO v$VERSION for $OS-$ARCH...${NC}"
 echo -e "Downloading from: $URL"
 
 if ! curl -fSL "$URL" -o "$BINARY_NAME"; then
-    echo -e "${RED}Failed to download KISSC${NC}"
+    echo -e "${RED}Failed to download TOFO${NC}"
     exit 1
 fi
 
@@ -49,7 +49,7 @@ sudo mv "$BINARY_NAME" "$INSTALL_DIR/$BINARY_NAME"
 
 # Verify installation
 if command -v "$BINARY_NAME" >/dev/null 2>&1; then
-    echo -e "${GREEN}KISSC installed successfully!${NC}"
+    echo -e "${GREEN}TOFO installed successfully!${NC}"
     echo -e "Try running: ${YELLOW}$BINARY_NAME <your_project_name>${NC}"
 else
     echo -e "${RED}Installation failed - $BINARY_NAME not found in PATH${NC}"

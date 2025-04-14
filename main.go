@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	repoURL       = "https://raw.githubusercontent.com/AchoraSoft/kissc.at/master/"
+	repoURL       = "https://raw.githubusercontent.com/AchoraSoft/tofo/master/"
 	templateRepo  = repoURL + "templates/"
 	denoInstallURL = "https://deno.land/install.sh"
 )
@@ -89,9 +89,9 @@ func handleCreateCommand() {
 
 func printUsage() {
 	fmt.Println(`Usage:
-  kissc <project-name>                  # Basic project (legacy)
-  kissc create <project-name>           # Basic project
-  kissc create <project-name> -f <config.yaml>  # With config`)
+  tofo <project-name>                  # Basic project (legacy)
+  tofo create <project-name>           # Basic project
+  tofo create <project-name> -f <config.yaml>  # With config`)
 }
 
 func printSuccess(projectName string) {

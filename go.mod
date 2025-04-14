@@ -1,4 +1,4 @@
-module github.com/your-username/kissc
+module github.com/your-username/tofo
 
 go 1.24.2
 

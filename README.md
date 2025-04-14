@@ -1,8 +1,8 @@
 <p align="center">
-<img src="https://github.com/AchoraSoft/kissc.at/raw/master/logo.png" alt="KISSC Logo" width="250"/>
+<img src="https://github.com/AchoraSoft/tofo/raw/master/logo.png" alt="TOFO Logo" width="250"/>
 </p>
 
-# KISSC - Keep It Simple, Stupid CLI
+# TOFO | Think Once, Folw On
 
 A minimalist CLI tool for quickly scaffolding Deno projects with sensible defaults.
 
@@ -18,18 +18,18 @@ A minimalist CLI tool for quickly scaffolding Deno projects with sensible defaul
 ### Linux/macOS (bash)
 
 ```bash
-curl -fsSL https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.0.2/install.sh | sh
+curl -fsSL https://github.com/AchoraSoft/tofocli_tool/releases/download/v1.3.1/install.sh | sh
 ```
 
 ### Windows (PowerShell)
 
 ```powershell
-irm https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.0.2/install.ps1 | iex
+irm https://github.com/AchoraSoft/tofocli_tool/releases/download/v1.3.1/install.ps1 | iex
 ```
 
 ## Manual Installation
 
-1. Download the appropriate binary from our [releases page](https://github.com/AchoraSoft/kisscli_tool/releases)
+1. Download the appropriate binary from our [releases page](https://github.com/AchoraSoft/tofocli_tool/releases)
 2. Make it executable: `chmod +x kissc`
 3. Move it to your PATH: `mv kissc /usr/local/bin/`
 
@@ -37,11 +37,11 @@ irm https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.0.2/install.
 
 ```bash
 # Create a new project by default
-kissc create my-project
+tofo create my-project
 
 OR
 
-kissc create my-project -f <your-yaml-configuration>
+tofo create my-project -f <your-yaml-configuration>
 
 # Example yaml file content
 
@@ -70,13 +70,13 @@ deno run --allow-net --allow-read server.ts
 ### Linux/macOS
 
 ```bash
-curl -fsSL https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.1.0/uninstall.sh | sh
+curl -fsSL https://github.com/AchoraSoft/tofocli_tool/releases/download/v1.3.1/uninstall.sh | sh
 ```
 
 ### Windows
 
 ```powershell
-irm https://github.com/AchoraSoft/kisscli_tool/releases/download/v1.1.0/uninstall.ps1 | iex
+irm https://github.com/AchoraSoft/tofocli_tool/releases/download/v1.3.1/uninstall.ps1 | iex
 ```
 
 ## Requirements
