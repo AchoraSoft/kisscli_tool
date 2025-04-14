@@ -30,8 +30,8 @@ irm https://github.com/AchoraSoft/tofocli_tool/releases/download/v1.3.1/install.
 ## Manual Installation
 
 1. Download the appropriate binary from our [releases page](https://github.com/AchoraSoft/tofocli_tool/releases)
-2. Make it executable: `chmod +x kissc`
-3. Move it to your PATH: `mv kissc /usr/local/bin/`
+2. Make it executable: `chmod +x tofo`
+3. Move it to your PATH: `mv tofo /usr/local/bin/`
 
 ## Usage
 
