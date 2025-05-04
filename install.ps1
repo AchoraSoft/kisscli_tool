@@ -1,5 +1,5 @@
 # install.ps1
-$VERSION = "1.1.0"
+$VERSION = "1.3.1"
 $REPO = "AchoraSoft/tofocli_tool"
 $BINARY_NAME = "tofo"
 $INSTALL_DIR = "$HOME\bin"

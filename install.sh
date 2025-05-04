@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration
-VERSION="1.1.0"
+VERSION="1.3.1"
 REPO="AchoraSoft/tofocli_tool"
 BINARY_NAME="tofo"
 INSTALL_DIR="/usr/local/bin"
